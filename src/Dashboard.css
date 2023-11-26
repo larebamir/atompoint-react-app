@@ -1,0 +1,47 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .status-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 100%;
+  }
+  
+  .status-card h3 {
+    color: #333;
+  }
+  
+  .status-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .line-chart-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .line-chart-container {
+      width: auto;
+    }
+  }
+  /* Add any additional styling you'd like */
+  
